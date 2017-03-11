@@ -57,5 +57,8 @@ body,html{
 }
 .sliders-text{
     position: absolute;
-
+    top:50%;
+}
+.sliders-text h1{
+    color: #269abc;
 }
