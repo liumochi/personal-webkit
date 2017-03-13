@@ -1,0 +1,55 @@
+.da-arrows{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.da-arrows span{
+
+    position: absolute;
+    top: 60%;
+    cursor: pointer;
+    z-index: 2000;
+    opacity: 1;
+    height:60px;
+    width:60px;
+    -webkit-transition: opacity 0.4s ease-in-out-out 0.1s;
+    -moz-transition: opacity 0.4s ease-in-out-out 0.1s;
+    -o-transition: opacity 0.4s ease-in-out-out 0.1s;
+    -ms-transition: opacity 0.4s ease-in-out-out 0.1s;
+    transition: opacity 0.4s ease-in-out-out 0.1s;
+}
+.da-arrows-prev{
+    background: url(../img/sprite.png) no-repeat 0px 0px;
+    background-color: #02B3E9;
+}
+.da-arrows-next{
+    background: url(../img/sprite.png) no-repeat -80px 0px;
+    background-color: #02B3E9;
+}
+.da-arrows:hover .da-arrows span{
+    opacity: 1;
+}
+.da-arrows span.da-arrows-next:after{
+    background-position: top right;
+}
+.da-arrows span.da-arrows-prev{
+    left: 15px;
+}
+.da-arrows span.da-arrows-next{
+    right: 400px;
+}
+.row{
+    position: relative;
+}
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-indent: 100%;
+    background: url(../img/top.png) no-repeat right top;
+}
