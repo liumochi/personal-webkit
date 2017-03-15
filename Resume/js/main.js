@@ -118,7 +118,12 @@ $('#nav').affix({
         $("html,body").animate({scrollTop:0},800);//点击top按钮时，以800的速度回到顶部
         return false;
     })
-
+    $('#fixed-btn').on('mouseover',function(){
+        $('#bigCode').show();
+    })
+    $('#fixed-btn').on('mouseout',function(){
+        $('#bigCode').hide();
+    })
 }());
 
 

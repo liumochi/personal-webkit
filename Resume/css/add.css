@@ -40,16 +40,42 @@
 .row{
     position: relative;
 }
-#toTop {
-    display: none;
-    text-decoration: none;
+#toTop,#fixed-btn{
     position: fixed;
-    bottom: 10px;
+    text-decoration: none;
     right: 10px;
-    overflow: hidden;
     width: 40px;
     height: 40px;
     border: none;
     text-indent: 100%;
+}
+#toTop {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    display: none;
+    bottom: 50px;
     background: url(../img/top.png) no-repeat right top;
+}
+
+#fixed-btn{
+    right:5px;
+    display: block;
+    bottom:10px;
+    background: url(../img/qrcode.png) no-repeat right top;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#bigCode{
+    display: none;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    text-indent: 100%;
+    right:50px;
+    bottom: 0;
+    background: url(../img/weixin.jpg) no-repeat right top;
+    background-size: contain;
+    border:0;
 }
