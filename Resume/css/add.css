@@ -79,4 +79,5 @@
     background: url(../img/weixin.jpg) no-repeat right top;
     background-size: contain;
     border:0;
+    z-index: 9999;
 }
