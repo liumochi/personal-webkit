@@ -157,7 +157,7 @@ ul, ol {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background: url(../img/intro-big.jpg) no-repeat center center;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -737,7 +737,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 600;
 	letter-spacing: -2px;
 	color: #2c3e50;
-	-webkit-animation: translate 0.8s ease-in-out;
+	-webkit-animation: translate 1.5s ease-in-out;
 }
 @-webkit-keyframes translate {
 	0%{
@@ -770,7 +770,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 40px;
 	color: #76818d;
 	margin-top: 20px;
-	-webkit-animation: translate 1.5s linear;
+	-webkit-animation: translate 2.5s linear;
 
 }
 section {

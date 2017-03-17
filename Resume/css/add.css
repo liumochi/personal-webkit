@@ -20,11 +20,11 @@
 }
 .da-arrows-prev{
     background: url(../img/sprite.png) no-repeat 0px 0px;
-    background-color: #02B3E9;
+    /*background-color: #02B3E9;*/
 }
 .da-arrows-next{
     background: url(../img/sprite.png) no-repeat -80px 0px;
-    background-color: #02B3E9;
+    /*background-color: #02B3E9;*/
 }
 .da-arrows:hover .da-arrows span{
     opacity: 1;
@@ -36,7 +36,7 @@
     left: 15px;
 }
 .da-arrows span.da-arrows-next{
-    right: 400px;
+    right: 15px;
 }
 .row{
     position: relative;
@@ -80,4 +80,39 @@
     background-size: contain;
     border:0;
     z-index: 9999;
+}
+/* -------- Preloader Style ------- */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.status {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../img/preloader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: -70px 0 0 -70px;
+}
+.touxiang img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left:100px;
+    top:50px;
 }
