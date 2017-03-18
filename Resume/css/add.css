@@ -38,9 +38,7 @@
 .da-arrows span.da-arrows-next{
     right: 15px;
 }
-.row{
-    position: relative;
-}
+
 #toTop,#fixed-btn{
     position: fixed;
     text-decoration: none;
