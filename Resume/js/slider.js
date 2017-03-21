@@ -4,7 +4,7 @@
 //var row = document.getElementsByClassName('row');
 //var iNow = 0;
 //var oPrev = document.getElementsByClassName('da-arrows-prev');
-//var oNext = document.getElementsByClassName('da-arrows-next');
+//var oNext = document.getElementsByClassName('da-arrows-next')
 //oNext.onclick = function(){
 //   console.log(111);
 //   row[iNow].className='hide';
@@ -32,7 +32,6 @@ var $text = $('.intro-text');
 var $text2 = $('.intro-text2');
 $(function(){
    $next.on('click',function(){
-      $text.hide('hide');
-      $text2.fadeIn();
+      $a.css('')
    })
 });

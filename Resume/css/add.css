@@ -114,3 +114,12 @@
     left:100px;
     top:50px;
 }
+.timeline-panel a{
+    color:#2c3e50;
+}
+.timeline-panel a:hover{
+    color:#E87E04;
+}
+.cc a,.aa{
+    color:#E87E04;
+}
