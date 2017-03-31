@@ -79,7 +79,7 @@
     border:0;
     z-index: 9999;
 }
-/* -------- Preloader Style ------- */
+/* -------- ‘§º”‘ÿ ------- */
 .preloader {
     position: fixed;
     top: 0;
@@ -122,4 +122,8 @@
 }
 .cc a,.aa{
     color:#E87E04;
+}
+
+.about-text p{
+    text-align: center;
 }

@@ -22,16 +22,3 @@
 //      iNow=row.length-1
 //   }
 //};
-
-
-
-
-var iNow = 0;
-var $next = $('.da-arrows-next');
-var $text = $('.intro-text');
-var $text2 = $('.intro-text2');
-$(function(){
-   $next.on('click',function(){
-      $a.css('')
-   })
-});
